@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-15T11:09:13 IST" name="Default suite" finished-at="2023-02-15T11:10:07 IST" duration-ms="53666">
+    <groups>
+    </groups>
+    <test started-at="2023-02-15T11:09:13 IST" name="Default test" finished-at="2023-02-15T11:10:07 IST" duration-ms="53666">
+      <class name="com.AmazonAutomation.QA.TestCasePackage.LaunchAndLoginTC">
+        <test-method is-config="true" signature="createObject()[pri:0, instance:com.AmazonAutomation.QA.TestCasePackage.LaunchAndLoginTC@550dbc7a]" started-at="2023-02-15T11:09:14 IST" name="createObject" finished-at="2023-02-15T11:09:14 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method signature="initialize()[pri:0, instance:com.AmazonAutomation.QA.TestCasePackage.LaunchAndLoginTC@550dbc7a]" started-at="2023-02-15T11:09:14 IST" name="initialize" finished-at="2023-02-15T11:09:18 IST" duration-ms="4158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="createObject()[pri:0, instance:com.AmazonAutomation.QA.TestCasePackage.LaunchAndLoginTC@550dbc7a]" started-at="2023-02-15T11:09:18 IST" name="createObject" finished-at="2023-02-15T11:09:18 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method signature="executeTC_displayproducts(java.lang.String)[pri:0, instance:com.AmazonAutomation.QA.TestCasePackage.LaunchAndLoginTC@550dbc7a]" started-at="2023-02-15T11:09:18 IST" name="executeTC_displayproducts" data-provider="AllSearchProducts" finished-at="2023-02-15T11:09:26 IST" duration-ms="8639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Books]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTC_displayproducts -->
+        <test-method signature="executeTC_displayproducts(java.lang.String)[pri:0, instance:com.AmazonAutomation.QA.TestCasePackage.LaunchAndLoginTC@550dbc7a]" started-at="2023-02-15T11:09:26 IST" name="executeTC_displayproducts" data-provider="AllSearchProducts" finished-at="2023-02-15T11:09:35 IST" duration-ms="8227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobiles]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTC_displayproducts -->
+        <test-method signature="executeTC_displayproducts(java.lang.String)[pri:0, instance:com.AmazonAutomation.QA.TestCasePackage.LaunchAndLoginTC@550dbc7a]" started-at="2023-02-15T11:09:35 IST" name="executeTC_displayproducts" data-provider="AllSearchProducts" finished-at="2023-02-15T11:09:42 IST" duration-ms="6966" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Greetings]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTC_displayproducts -->
+        <test-method signature="executeTC_displayproducts(java.lang.String)[pri:0, instance:com.AmazonAutomation.QA.TestCasePackage.LaunchAndLoginTC@550dbc7a]" started-at="2023-02-15T11:09:42 IST" name="executeTC_displayproducts" data-provider="AllSearchProducts" finished-at="2023-02-15T11:09:49 IST" duration-ms="7714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lotion]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTC_displayproducts -->
+        <test-method signature="executeTC_displayproducts(java.lang.String)[pri:0, instance:com.AmazonAutomation.QA.TestCasePackage.LaunchAndLoginTC@550dbc7a]" started-at="2023-02-15T11:09:49 IST" name="executeTC_displayproducts" data-provider="AllSearchProducts" finished-at="2023-02-15T11:09:58 IST" duration-ms="8486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jewellery]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTC_displayproducts -->
+        <test-method signature="executeTC_displayproducts(java.lang.String)[pri:0, instance:com.AmazonAutomation.QA.TestCasePackage.LaunchAndLoginTC@550dbc7a]" started-at="2023-02-15T11:09:58 IST" name="executeTC_displayproducts" data-provider="AllSearchProducts" finished-at="2023-02-15T11:10:04 IST" duration-ms="6377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tally Software]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTC_displayproducts -->
+        <test-method signature="launchApplicationusingURL()[pri:0, instance:com.AmazonAutomation.QA.TestCasePackage.LaunchAndLoginTC@550dbc7a]" started-at="2023-02-15T11:10:04 IST" name="launchApplicationusingURL" finished-at="2023-02-15T11:10:07 IST" duration-ms="2898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplicationusingURL -->
+      </class> <!-- com.AmazonAutomation.QA.TestCasePackage.LaunchAndLoginTC -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

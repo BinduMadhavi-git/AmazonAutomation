@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuit">
+  <test thread-count="5" name="Test">
+    <classes>
+       <class name="com.AmazonAutomation.QA.BaseClassPackage.BaseClass"/>
+        <class name="com.AmazonAutomation.QA.TestCasePackage.LaunchAndLoginTC"/>
+        <class name="com.AmazonAutomation.QA.TestCasePackage.ElectronicsTC"/>
+     
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- RegressionSuit -->

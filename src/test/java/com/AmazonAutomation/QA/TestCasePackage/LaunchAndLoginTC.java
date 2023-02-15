@@ -1,0 +1,37 @@
+package com.AmazonAutomation.QA.TestCasePackage;
+
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import com.AmazonAutomation.QA.BaseClassPackage.BaseClass;
+import com.AmazonAutomation.QA.PageObjectPackage.LaunchAndLoginPageObject;
+import com.AmazonAutomation.QA.TestDataPackage.TestDataInDataProvider;
+
+public class LaunchAndLoginTC	extends BaseClass 
+{
+	
+  LaunchAndLoginPageObject objlaunchlogin;	
+	
+	
+  @BeforeTest	
+  @Test
+  public void createObject() 
+  {
+  
+	  objlaunchlogin = new LaunchAndLoginPageObject();
+  }
+  
+  
+  @Test
+  public void launchApplicationusingURL()
+  {
+	  objlaunchlogin.launchApplication();
+  }
+  
+  
+  @Test(dataProvider="AllSearchProducts", dataProviderClass=TestDataInDataProvider.class)
+  public void executeTC_displayproducts(String data)
+  {
+	  objlaunchlogin.displayproducts(data);
+  }
+}
