@@ -34,4 +34,16 @@ public class LaunchAndLoginTC	extends BaseClass
   {
 	  objlaunchlogin.displayproducts(data);
   }
+  
+  
+  
+  public void display()
+  {
+	  System.out.println("Hello This is the new change in the evening session");
+  }
+  
+  public void view()
+  {
+	  System.out.println("This message is defined by Veerendra");
+  }
 }
