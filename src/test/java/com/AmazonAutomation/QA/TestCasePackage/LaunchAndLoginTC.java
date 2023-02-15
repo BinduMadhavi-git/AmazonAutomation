@@ -39,6 +39,6 @@ public class LaunchAndLoginTC	extends BaseClass
   
   public void display()
   {
-	  System.out.println("Hello This is the first change");
+	  System.out.println("Hello This is the second change");
   }
 }
