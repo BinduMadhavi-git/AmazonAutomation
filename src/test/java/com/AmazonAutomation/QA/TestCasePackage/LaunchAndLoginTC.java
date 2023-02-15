@@ -41,4 +41,9 @@ public class LaunchAndLoginTC	extends BaseClass
   {
 	  System.out.println("Hello This is the new change in the evening session");
   }
+  
+  public void view()
+  {
+	  System.out.println("This message is defined by Veerendra");
+  }
 }
